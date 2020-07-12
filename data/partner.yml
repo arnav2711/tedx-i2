@@ -1,0 +1,80 @@
+############################### Partner ############################
+partner:
+  enable : true
+  title : Partners
+  partner_section :
+    enable : true
+  partner_loop :
+    - name : AIC Infrastructures Private Ltd
+      type : 
+      image : aic-infrastructures-pvt-ltd.png #logo-image 
+      social : # select icons from https://fontawesome.com/ add mr-3 after icon i.e ((fab fa-facebook mr-3))
+        - icon : fas fa-globe mr-3 
+          link : "https://www.aicinfra.com/"
+
+    - name : ICICI Bank Ltd
+      type : 
+      image : icici-bank-ltd.png #logo-image 
+      social :
+        - icon : fas fa-globe mr-3 
+          link : "https://www.icicibank.com/"
+        - icon : fab fa-instagram mr-3
+          link : "https://www.instagram.com/icicibank/"
+        - icon : fab fa-facebook mr-3
+          link : "https://www.instagram.com/icicibank/"          
+  
+    - name : Janakalyan Sahakari Bank Ltd
+      type : 
+      image : janakalyan-sahakari-bank-pvt-ltd.png #logo-image 
+      social :
+        - icon : fas fa-globe mr-3 
+          link : "https://www.jsblbank.com/"
+        - icon : fab fa-instagram mr-3
+          link : "https://www.instagram.com/janakalyanbank/"
+        - icon : fab fa-facebook mr-3
+          link : "https://www.facebook.com/JKSBL/" 
+
+    - name : Black Olive
+      type : FOOD PARTNER
+      image : black-olive.jpg #logo-image 
+      social :
+        - icon : fab fa-instagram mr-3
+          link : "https://www.instagram.com/thefactorybyblackolive/"
+        - icon : fab fa-facebook mr-3
+          link : "https://www.facebook.com/blackolivegourmetfood/"
+
+    - name : Bake My Day
+      type : DESSERT PARTNER
+      image : bake-my-day.png #logo-image 
+      social : 
+        - icon : fab fa-instagram mr-3 
+          link : "https://www.instagram.com/bansal_aahanna/"
+
+    - name : Eventora
+      type : BOOKINGS PARTNER
+      image : eventora.png #logo-image 
+      social : 
+        - icon : fas fa-globe mr-3 
+          link : "https://www.eventora.com/"
+        - icon : fab fa-facebook mr-3
+          link : "https://www.facebook.com/eventora/"          
+  
+    - name : Pepaa
+      type : ECO PARTNER
+      image : pepaa.png #logo-image 
+      social : 
+        - icon : fas fa-globe mr-3 
+          link : "https://www.pepaa.co/"
+        - icon : fab fa-instagram mr-3 
+          link : "https://www.instagram.com/pepaa.co/"
+        - icon : fab fa-facebook mr-3
+          link : "https://www.facebook.com/pepaa.co/"          
+
+    - name : Extrabit
+      type : VIDEOGRAPHY & WEBCAST PARTNER
+      image : extrabit.png #logo-image 
+      social : 
+        - icon : fas fa-globe mr-3 
+          link : "http://www.extrabit.in/"
+        - icon : fas fa-envelope mr-3 
+          link : "mailto:info@extrabit.in"

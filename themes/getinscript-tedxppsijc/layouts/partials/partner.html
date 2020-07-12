@@ -1,0 +1,53 @@
+{{ $data := index .Site.Data }}
+
+{{ if $data.partner.partner.enable }}
+{{ with $data.partner.partner }}
+
+<section class="ftco-section">
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+                <span class="subheading">{{ .title | markdownify }}</span>
+                <!--<h2 class="mb-4">The Preachers</h2>
+                <p>They'll deliver, for sure.</p>-->
+            </div>
+        </div>
+        <div class="row">
+            {{ if .partner_section.enable }}
+            {{ range .partner_loop}}
+            <div class="col-md-6 col-lg-3 ftco-animate">
+                <div class="staff">
+                    <div class="img-wrap d-flex align-items-stretch">
+                        <div class="img align-self-stretch" style='background-image: url("{{ $.Site.BaseURL }}images/partners/{{ .image }}");'>
+                        </div>
+                    </div>
+                    <div class="text d-flex align-items-center pt-3 text-center">
+                        <div>
+                            <h3 class="mb-2">{{ .name }}</h3>
+                            <span class="position mb-4">{{ .type }}</span>
+                        </div>
+                    </div>
+                    <div class="text d-flex align-items-center pt-1 text-center">
+                        <div>
+                            {{ range .social }}
+                            <a href="{{ .link | safeURL }}" target="_blank">
+                                <i class="{{ .icon }}"></i>
+                            </a>
+                            {{ end }}
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            {{ end }}
+            {{ else }}
+            <div class="col-md-12 heading-section text-center ftco-animate">
+                <h2 class="mb-4">At you service, soon.</h2>
+            </div>
+            {{ end }} 
+        </div>
+    </div>
+</section>
+
+{{end}}
+{{end}}

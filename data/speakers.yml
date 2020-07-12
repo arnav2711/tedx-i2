@@ -1,0 +1,62 @@
+############################### Speakers ############################
+speakers:
+  enable : true
+  section_title : Speakers
+  title : The Preachers
+  subtitle : They'll deliver, for sure.
+  speakers_section :
+     enable : true
+  speakers_loop :
+    - name : Aditi Goyal
+      bio : Ex-student of PPSIJC
+      topic : HOW WE WRITE VS WHAT WE WRITE
+      discipline : PSYCHOLOGY
+      image : aditi-goyal.jpg
+
+    - name : Nikhil Rodekar
+      bio : Student at Indian Institute of Technology - Bombay
+      topic : LINGUA FRANCA(S)
+      discipline : EDUCATION
+      image : nikhil-rodekar.jpg
+
+    - name : Mansi Shah
+      bio : Business Development Head at Hemp Fabric Labs
+      topic : WHY WE SHOULDN'T BE TALKING ABOUT SUSTAINABILITY
+      discipline : SUSTAINABILITY
+      image : mansi-shah.jpg
+
+    - name : Anindo Bhattacharjee
+      bio : Professor at NMIMS's School of Commerce
+      topic : THE CERTAINTY OF UNCERTAINTY
+      discipline : MANAGEMENT
+      image : anindo-bhattacharjee.jpg
+
+    - name : Kiran Bafna
+      bio : Founder of VeriFirm.in
+      topic : TRUSTING TECHNOLOGY
+      discipline : FINANCE
+      image : kiran-bafna.jpg
+
+    - name : Siddhant Shah
+      bio : Access Consultant
+      topic : THE TRUE ESSENCE OF INCLUSION
+      discipline : DESIGN
+      image : siddhant-shah.jpg
+      
+    - name : Ali Haji
+      bio : Actor
+      topic : IF ALL THE WORLD IS A STAGE, WHERE DO WE FIT IN?
+      discipline : THEATRE
+      image : ali-haji.jpg
+
+    - name : Shivam Jain Kakadia
+      bio : Professor at Government Law College
+      topic : DEMOCRACY AND THE RULE OF LAW
+      discipline : LAW
+      image : shivam-jain-kakadia.jpg
+      
+    - name : Abhishek Malik
+      bio : Regional Head, North and East, HealthCare at Home
+      topic : HOMECARE IN THE 21ST CENTURY
+      discipline : HEALTH CARE
+      image : abhishek-malik.jpeg  

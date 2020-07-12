@@ -1,0 +1,146 @@
+################################# Default configuration ###################
+baseURL = "https://hungry-neumann-02003f.netlify.app/"
+title = "TEDxYouth@PPSIJC"
+theme = "getinscript-tedxppsijc"
+
+
+############################# Plugins ##########################
+# css plugins
+[[params.plugins.css]]
+link = "plugins/css/open-iconic-bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/css/animate.css"
+[[params.plugins.css]]
+link = "plugins/css/aos.css"
+[[params.plugins.css]]
+link = "plugins/css/icomoon.css"
+[[params.plugins.css]]
+link = "plugins/css/magnific-popup.css"
+[[params.plugins.css]]
+link = "plugins/css/owl.carousel.min.css"
+[[params.plugins.css]]
+link = "plugins/css/owl.theme.default.min.css"
+[[params.plugins.css]]
+link = "plugins/css/ionicons.min.css"
+[[params.plugins.css]]
+link = "https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900"
+
+# js plugins
+[[params.plugins.js]]
+link = "plugins/js/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/js/jquery-migrate-3.0.1.min.js"
+[[params.plugins.js]]
+link = "plugins/js/popper.min.js"
+[[params.plugins.js]]
+link = "plugins/js/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/js/jquery.easing.1.3.js"
+[[params.plugins.js]]
+link = "plugins/js/jquery.waypoints.min.js"
+[[params.plugins.js]]
+link = "plugins/js/jquery.stellar.min.js"
+[[params.plugins.js]]
+link = "plugins/js/owl.carousel.min.js"
+[[params.plugins.js]]
+link = "plugins/js/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+link = "plugins/js/aos.js"
+[[params.plugins.js]]
+link = "plugins/js/jquery.animateNumber.min.js"
+[[params.plugins.js]]
+link = "plugins/js/scrollax.min.js"
+[[params.plugins.js]]
+link = "plugins/js/timer.js"
+[[params.plugins.js]]
+link = "plugins/js/jquery.magnific-popup.min.js"
+
+############################# Navigation ##################################
+[[menu.main]]
+name = "About"
+URL = "#about-section"
+weight = 1
+
+[[menu.main]]
+name = "Speakers"
+URL = "#speakers-section"
+weight = 2
+
+[[menu.main]]
+name = "Team"
+URL = "#team-section"
+weight = 3
+
+[[menu.main]]
+name = "Venue"
+URL = "#venue-section"
+weight = 4
+
+[[menu.main]]
+name = "Partners"
+URL = "partners"
+weight = 5
+
+[[menu.main]]
+name = "Nominate"
+URL = "nominate"
+weight = 6
+
+#### external / static link ####
+[[menu.static]]
+name = "Attend"
+URL = "https://www.eventora.com/en/Events/tedxppsijc"
+weight = 7
+
+[[menu.static]]
+name = "Watch"
+URL = "https://www.youtube.com/watch?v=khKNsqKNOfE"
+weight = 8
+
+############################# Default Parameters ##########################
+[params]
+logo = "images/logo.png"
+# Meta data
+description = "TEDxYouth@PPSIJC is a conference being curated by the students of Prabhavati Padamshi Soni International Junior College, a junior college in Juhu, with a pedagogy based on Cambridge Assessment International Education's Advanced Level (A-Levels) program under the guidance of their teachers. The conference will be hosting an expected audience of about 100 in the institution's auditorium. Our goal is to bring together bright minds to give talks that are idea-focused, and on a wide range of subjects, to foster learning, inspiration and wonder, and provoke conversations that matter. The theme for this conference is: 'The Knowledge Illusion'."
+# Google Analytics
+google_analytics_id = "UA-143268759-3" # Your ID 
+title_social = "TEDxYouth@PPSIJC | 01 December 2019 | The Knowledge Illusion"
+
+
+# google map
+[params.map]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
+
+############################# social icons ##########################
+[[params.social]]
+icon = "icon-facebook" # themify icon pack : https://themify.me/themify-icons
+link = "https://facebook.com/tedxppsijc"
+
+[[params.social]]
+icon = "icon-instagram" # themify icon pack : https://themify.me/themify-icons
+link = "https://instagram.com/tedxppsijc"
+
+[[params.social]]
+icon = "icon-twitter" # themify icon pack : https://themify.me/themify-icons
+link = "https://twitter.com/tedxppsijc"
+
+[[params.social]]
+icon = "icon-linkedin" # themify icon pack : https://themify.me/themify-icons
+link = "https://linkedin.com/company/tedxppsijc"
+
+[[params.social]]
+icon = "icon-envelope-o" # themify icon pack : https://themify.me/themify-icons
+link = "mailto:info@tedxppsijc.com"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+

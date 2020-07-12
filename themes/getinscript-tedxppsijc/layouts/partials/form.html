@@ -1,0 +1,54 @@
+{{ $data := index .Site.Data }}
+
+{{ if $data.form.form.enable }}
+{{ with $data.form.form }}
+
+<section class="ftco-section">
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+                <span class="subheading">NOMINATE A SPEAKER</span>
+                <h2 class="mb-4">Let's give everyone a voice</h2>
+                <p>Know someone who can deliver a powerful message; someone who deserves to be heard? You are at the right place.</p>
+                <p>Please fill in the following nomination form.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center d-flex">
+            <form action="nomination.php" method="POST" class="bg-light p-4 p-md-5 contact-form">
+                <div class="form-group">
+                    <input name="submission_checker" type="hidden" value="1">
+                </div>
+                <div class="form-group">
+                    <input name="contact_point_name" type="text" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input name="contact_point_email" type="email" class="form-control" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <input name="contact_point_mobile" type="tel" class="form-control" placeholder="Your Mobile Number">
+                </div>
+                <div class="form-group">
+                    <input name="nominee_name" type="text" class="form-control" placeholder="Nominee's Name" required>
+                </div>
+                <div class="form-group">
+                    <input name="nominee_email" type="email" class="form-control" placeholder="Nominee's Email">
+                </div>
+                <div class="form-group">
+                    <input name="nominee_mobile" type="tel" class="form-control" placeholder="Nominee's Mobile Number">
+                </div>
+                <div class="form-group">
+                    <textarea name="nominee_topic_suggestion" id="" cols="30" rows="7" class="form-control" placeholder="Any specific topic on which this person could deliver a talk?"></textarea>
+                </div>
+                <div class="form-group">
+                    <textarea name="nominee_about" id="" cols="30" rows="7" class="form-control" placeholder="Anything you'd like us to know about this person?"></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Nominate" class="btn btn-primary py-3 px-5">
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+{{end}}
+{{end}}

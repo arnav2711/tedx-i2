@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{{ partial "head.html" . }}
+
+<html lang="en">
+
+    <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+        {{ partial "preloader.html" . }}
+        {{- block "main" . }}{{- end }}
+    </body>
+
+{{- partial "footer.html" . -}}
+</html>

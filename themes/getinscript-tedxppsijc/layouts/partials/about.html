@@ -1,0 +1,22 @@
+{{ $data := index .Site.Data }}
+
+{{ if $data.about.about.enable }}
+{{ with $data.about.about }}
+<section class="ftco-section ftco-services ftco-no-pt ftco-no-pb" id="about-section">
+    <div class="container">
+        <div class="row no-gutters services-section">
+            <div class="col-md-12 d-flex align-self-stretch ftco-animate">
+                <div class="media block-6 services services-2 text-center d-block">
+                    <div class="media-body">
+                        <h3 class="heading mb-3">{{ .title | markdownify }}</h3>
+                        <p>{{ .content | markdownify }}</p>
+                        <!-- <p><a href="#" class="btn btn-primary">Read more</a></p> -->
+                        <p><a href="https://tedxppsijc.com/ted" target="_blank" class="btn btn-white">About TED</a> <a href="https://www.ted.com/about/programs-initiatives/tedx-program" target="_blank" class="btn btn-white">About TEDx</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}

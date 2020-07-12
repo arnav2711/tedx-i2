@@ -1,0 +1,31 @@
+{{ $data := index .Site.Data }}
+
+{{ if $data.banner.banner.enable }}
+{{ with $data.banner.banner }}
+
+<section class="ftco-counter img ftco-section ftco-no-pt ftco-no-pb" id="home-section">
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-md-6 col-lg-5 d-flex">
+                <div class="img d-flex align-self-stretch align-items-center" style="background-image:url({{ .bg_image_webp | absURL }});">
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-7 pl-lg-5 py-5">
+                <div class="py-md-5">
+                    <div class="row justify-content-start pb-3">
+                        <div class="col-md-12 heading-section ftco-animate">
+                            <span class="subheading">{{ .theme_name | markdownify }}</span>
+                            <span class="subheading">{{ .event_date | markdownify }}</span>
+                            <!--<span class="number" data-number="20">0</span>-->
+                            <h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">{{ .title | markdownify }}</h2>
+                            <p>{{ .content | markdownify }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{end}}
+{{end}}
