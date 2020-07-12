@@ -3,7 +3,7 @@ license = "CC BY 3.0"
 licenselink = "https://creativecommons.org/licenses/by/3.0/"
 description = ""
 homepage = "https://getinscript.com"
-min_version = "0.58.0"
+min_version = "0.55.6"
 
 [author]
   name = "colorlib"
