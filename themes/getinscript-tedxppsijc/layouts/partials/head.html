@@ -21,12 +21,12 @@
 	{{ "<!-- Meta (OG) -->" | safeHTML }}
 	<meta property="og:title" content="{{ .Site.Params.title_social }}" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="{{ .Site.BaseURL }}" />
+	<meta property="og:url" content="http://tedxppsijc.com/" />
 	<meta property="og:image:secure_url" content="https://tedxppsijc.com/images/logo-transparent-black.png" />
 	<meta property="og:image" content="http://tedxppsijc.com/images/logo-transparent-black.png" />
 	<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}" />
 
     {{ "<!--Favicon-->" | safeHTML }}
-	<link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
-	<link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
+	<link rel="shortcut icon" href="{{ `./favicon.ico` | absURL }}" type="image/x-icon">
+	<link rel="icon" href="{{ `./favicon.ico` | absURL }}" type="image/x-icon">
 </head>
