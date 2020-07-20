@@ -28,8 +28,8 @@ link = "https://use.fontawesome.com/releases/v5.8.2/css/all.css"
 link = "https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900"
 
 # js plugins
-[[params.plugins.js]]
-link = "plugins/js/jquery.min.js"
+#[[params.plugins.js]]
+#link = "plugins/js/jquery.min.js"
 [[params.plugins.js]]
 link = "plugins/js/jquery-migrate-3.0.1.min.js"
 [[params.plugins.js]]
