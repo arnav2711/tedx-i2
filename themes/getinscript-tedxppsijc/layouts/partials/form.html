@@ -48,48 +48,47 @@
     </div>
 </section>
 <script>
-					$(function(){
-						$('#nomination-form').submit(function(e){
-								e.preventDefault();
-								let captcha = grecaptcha.getResponse();
-								if(captcha.length < 1){
-									alert('please fill out the recaptcha')
-								}
-								else {
-									$.ajax({
-											type: "POST",
-											url: "https://odlvygpp1b.execute-api.ap-south-1.amazonaws.com/DeploymentStage/",
-											dataType: "json",
-											contentType: "application/json",
-											data: JSON.stringify( { "id": "","fullName": $('#fullName').val(),"email": $('#email').val(),"number": $('#number').val(),"nominee_name": $('#nominee_name').val(),"nominee_email": $('#nominee_email').val(),"nominee_number": $('#nominee_number').val(),"topic": $('#topic').val(),"extra_info": $('#extra_info').val(), "captcha":captcha } ),
-											beforeSend: function(data) {
-													$('#nomination-btn').prop('disabled', true);
-													$('#nomination-form :input').prop('disabled', true);
-													$('#nomination-status').html('Sending...').show();
-											},
-											success: function(data, status, jqXHR) {
-													console.log(data);
-													if(status === 'success'){
-														$('#nomination-status').text("We'll get back to you soon").show();
-														$('#nomination-form :input').removeProp('disabled');
-														$('#nomination-btn').removeProp('disabled');
-													}
-													else {
-														$('#nomination-status').text('Error. Please try again.').show();
-														$('#nomination-form :input').removeProp('disabled');
-														$('#nomination-btn').removeProp('disabled');
-													}
-											},
-											error: function(jqXHR, textStatus, errorThrown) {
-												$('#nomination-status').text('Error. Please check your network connection and try again.').show();
-												$('#nomination-form :input').removeProp('disabled');
-												$('#nomination-btn').removeProp('disabled');
-											}
-									});
-								}
-						}); 				
+	$(function(){
+		$('#nomination-form').submit(function(e){
+				e.preventDefault();
+				let captcha = grecaptcha.getResponse();
+				if(captcha.length < 1){
+					alert('please fill out the recaptcha')
+				}
+				else {
+					$.ajax({
+							type: "POST",
+							url: "https://rgqi43yayg.execute-api.ap-south-1.amazonaws.com/DeploymentStage/",
+							dataType: "json",
+							contentType: "application/json",
+							data: JSON.stringify( { "id": "","fullName": $('#fullName').val(),"email": $('#email').val(),"number": $('#number').val(),"nominee_name": $('#nominee_name').val(),"nominee_email": $('#nominee_email').val(),"nominee_number": $('#nominee_number').val(),"topic": $('#topic').val(),"extra_info": $('#extra_info').val(), "captcha":captcha } ),
+							beforeSend: function(data) {
+									$('#nomination-btn').prop('disabled', true);
+									$('#nomination-form :input').prop('disabled', true);
+									$('#nomination-status').html('Sending...').show();
+							},
+							success: function(data, status, jqXHR) {
+									console.log(data);
+									if(status === 'success'){
+										$('#nomination-status').text("We'll get back to you soon").show();
+										$('#nomination-form :input').removeProp('disabled');
+										$('#nomination-btn').removeProp('disabled');
+									}
+									else {
+										$('#nomination-status').text('Error. Please try again.').show();
+										$('#nomination-form :input').removeProp('disabled');
+										$('#nomination-btn').removeProp('disabled');
+									}
+							},
+							error: function(jqXHR, textStatus, errorThrown) {
+								$('#nomination-status').text('Error. Please check your network connection and try again.').show();
+								$('#nomination-form :input').removeProp('disabled');
+								$('#nomination-btn').removeProp('disabled');
+							}
 					});
-				</script>
-
+				}
+		}); 				
+	});
+</script>
 {{end}}
 {{end}}
