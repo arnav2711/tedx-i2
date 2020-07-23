@@ -5,8 +5,8 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: themes/getinscript-tedxppsijc
-  label: Main Site
+  path: data
+  label: Editing
   create: all
   match: "**/*"
 - type: directory
