@@ -1,7 +1,7 @@
 ############################### Banner ################################
 banner:
   enable : true
-  bg_image_webp : "images/banner-without-date.webp"
+  bg_image_webp : "images/banner.webp"
   title: "TEDxYouth@PPSIJC"
   theme_name: "FROM CRISIS TO OPPORTUNITY"
   event_date: "June 13, 2021"
