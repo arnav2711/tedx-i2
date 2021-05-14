@@ -82,7 +82,7 @@ weight = 4
 [[menu.main]]
 name = "Nominate"
 URL = "nominate"
-weight = 6
+weight = 5
 
 
 
