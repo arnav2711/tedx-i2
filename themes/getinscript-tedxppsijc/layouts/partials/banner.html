@@ -3,7 +3,7 @@
 {{ if $data.banner.banner.enable }}
 {{ with $data.banner.banner }}
 
-<section class="ftco-counter img ftco-section ftco-no-pt ftco-no-pb" id="home-section">
+<section class="ftco-counter img ftco-section ftco-no-pt ftco-no-pb" id="home-section" style="background-color: black; margin-top: 15px;">
     <div class="container">
         <div class="row d-flex">
             <div class="col-md-6 col-lg-5 d-flex">
@@ -14,11 +14,11 @@
                 <div class="py-md-5">
                     <div class="row justify-content-start pb-3">
                         <div class="col-md-12 heading-section ftco-animate">
-                            <span class="subheading">{{ .theme_name | markdownify }}</span>
-                            <span class="subheading">{{ .event_date | markdownify }}</span>
+                            <h2 class="subheading" style="font-size: 25px; margin-bottom: 30px;">{{ .theme_name | markdownify }}</h2>
+                            <!--<span class="subheading">{{ .event_date | markdownify }}</span>-->
                             <!--<span class="number" data-number="20">0</span>-->
-                            <h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">{{ .title | markdownify }}</h2>
-                            <p>{{ .content | markdownify }}</p>
+                            <!--<h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">{{ .title | markdownify }}</h2>-->
+                            <p style="color: white;">{{ .content | markdownify }}</p>
                         </div>
                     </div>
                 </div>

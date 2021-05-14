@@ -10,75 +10,39 @@ team:
     - name : Mrs. Shubhangi Amonkar
       designation : Lead organiser
       image : shubhangi-amonkar.png
-      
-    - name : Gaurang Chhajed
-      designation : Executive producer, <br>Event manager, <br>Website manager
-      image : gaurang-chhajed.png
 
-    - name : Gourang Abani
-      designation : Curator, <br>Executive producer, <br>Website manager
-      image : gourang-abani.png
-
-    - name : Nandini Mahadevan
-      designation : Curator, <br>Executive producer
-      image : nandini-mahadevan.png
-      
-    - name : Mahima Kochar
-      designation : Curator, <br>Communications, editorial and marketing director
-      image : mahima-kochar.png
-
-    - name : Snehsrishti Assie
-      designation : Curator, <br>Designer
-      image : snehsrishti-assie.png
-    
-    - name : Sachita Chittal
-      designation : Curator, <br>Designer
-      image : sachita-chittal.png
-      
-    - name : Ansh Goyal
-      designation : Curator, <br>Event manager
-      image : ansh-goyal.png
-
-    - name : Harshit Parikh
-      designation : Event manager, <br>Designer, <br>Website manager
-      image : harshit-parikh.png
-
-    - name : Swara Shah
-      designation : Designer, <br>Communications, editorial and marketing director
-      image : swara-shah.png
-      
-    - name : Chaitra Bhilkar
-      designation : Designer, <br>Video and production lead
-      image : chaitra-bhilkar.png
-
-    - name : Karrishma Punivala
-      designation : Event manager
-      image : karrishma-punivala.png
-
-    - name : Vrushti Joshi
-      designation : Designer
-      image : vrushti-joshi.jpg
-    
-    - name : Neel Gandhi
-      designation : Curator, <br>Communications, editorial and marketing director
-      image : neel-gandhi.jpg
-      
     - name : Rishi Ravikumar
-      designation : Volunteer
+      designation : Executive producer
       image : rishi-ravikumar.png
 
     - name : Krish Panchigar
-      designation : Volunteer
+      designation : Executive producer, <br>Website manager
       image : krish-panchigar.jpg
 
-    - name : Aaryan Mehta
-      designation : Volunteer
-      image : aaryan-mehta.png
-      
-    - name : Darji Shah
-      designation : Volunteer
-      image : darji-shah.png
+    - name : Siya Bhandari
+      designation : Designer, <br>Marketing
+      image : siya-bhandari.jpg
+    
+    - name : Snehsrishti Assie
+      designation : Designer, <br>Marketing
+      image : snehsrishti-assie.png
+    
+    - name : Jayaditya Singhvi
+      designation : Designer, <br>Marketing
+      image : jayaditya-singhvi.jpg
 
-    - name : Gurbax Assie
-      designation : Designer
-      image : volunteer-standard.png     
+    - name : Varda Rohokale
+      designation : Curator
+      image : varda-rohokale.jpg
+
+    - name : Maitri Arjun Krishnan
+      designation : Curator
+      image : maitri-arjun-krishnan.jpg
+
+    - name : Shreya Gupta
+      designation : Curator
+      image : shreya-gupta.jpg
+
+    - name : Aarav Jain
+      designation : Website manager
+      image : aarav-jain.jpg

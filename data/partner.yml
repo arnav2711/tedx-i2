@@ -1,6 +1,6 @@
 ############################### Partner ############################
 partner:
-  enable : true
+  enable : false
   title : Partners
   partner_section :
     enable : true

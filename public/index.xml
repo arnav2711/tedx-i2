@@ -26,7 +26,6 @@
       <guid>/nominate/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Our Partners</title>
       <link>/partners/</link>
@@ -35,6 +34,5 @@
       <guid>/partners/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

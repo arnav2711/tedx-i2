@@ -74,30 +74,17 @@ URL = "#team-section"
 weight = 3
 
 [[menu.main]]
-name = "Venue"
-URL = "#venue-section"
+name = "Register"
+URL = "#register-section"
 weight = 4
 
-[[menu.main]]
-name = "Partners"
-URL = "partners"
-weight = 5
 
 [[menu.main]]
 name = "Nominate"
 URL = "nominate"
 weight = 6
 
-#### external / static link ####
-[[menu.static]]
-name = "Attend"
-URL = "https://www.eventora.com/en/Events/tedxppsijc"
-weight = 7
 
-[[menu.static]]
-name = "Watch"
-URL = "https://www.youtube.com/watch?v=khKNsqKNOfE"
-weight = 8
 
 ############################# Default Parameters ##########################
 [params]
