@@ -38,6 +38,10 @@ team:
     - name : Shreya Gupta
       designation : Curator
       image : shreya-gupta.jpg
+    
+    - name : Krisha Seth
+      designation : Curator
+      image : krisha-seth.jpg
 
     - name : Aarav Jain
       designation : Website manager
