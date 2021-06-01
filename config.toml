@@ -2,6 +2,7 @@
 baseURL = "https://tedxppsijc.com/"
 title = "TEDxYouth@PPSIJC"
 theme = "getinscript-tedxppsijc"
+banner = "{{ $.Site.BaseURL }}images/banner.webp"
 
 
 ############################# Plugins ##########################
