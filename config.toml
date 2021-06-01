@@ -2,6 +2,7 @@
 baseURL = "https://tedxppsijc.com/"
 title = "TEDxYouth@PPSIJC"
 theme = "getinscript-tedxppsijc"
+logo = "images/banner.webp"
 
 
 ############################# Plugins ##########################
@@ -88,7 +89,7 @@ weight = 5
 
 ############################# Default Parameters ##########################
 [params]
-images = "images/banner.webp"
+logo = "images/banner.webp"
 # Meta data
 description = "TEDxYouth@PPSIJC is a conference being curated by the students of Prabhavati Padamshi Soni International Junior College, a junior college in Juhu, with a pedagogy based on Cambridge Assessment International Education's Advanced Level (A-Levels) program under the guidance of their teachers. The conference will be hosting an expected audience of about 100 in the institution's auditorium. Our goal is to bring together bright minds to give talks that are idea-focused, and on a wide range of subjects, to foster learning, inspiration and wonder, and provoke conversations that matter. The theme for this conference is: 'The Knowledge Illusion'."
 # Google Analytics
