@@ -84,6 +84,10 @@ name = "Nominate"
 URL = "nominate"
 weight = 5
 
+[[menu.main]]
+name = "Past Speakers"
+URL = "past_speakers"
+weight = 6
 
 
 ############################# Default Parameters ##########################
