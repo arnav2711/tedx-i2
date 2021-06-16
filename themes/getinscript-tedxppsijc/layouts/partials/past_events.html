@@ -1,7 +1,7 @@
 {{ $data := index .Site.Data }}
 
-{{ if $data.past_speakers.past_speakers.enable }}
-{{ with $data.past_speakers.past_speakers }}
+{{ if $data.past_events.past_events.enable }}
+{{ with $data.past_events.past_events }}
 <section class="ftco-section" id="speakers-section">
     <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
@@ -12,8 +12,8 @@
             </div>
         </div>
         <div class="row d-flex">
-            {{ if .past_speakers_section.enable }}
-            {{ range .past_speakers_loop}}
+            {{ if .past_events_section.enable }}
+            {{ range .past_events_loop}}
             <div class="col-md-3 d-flex ftco-animate">
                 <div class="blog-entry justify-content-end">
                     <a class="block-20" style='background-image: url("{{ $.Site.BaseURL }}images/speakers/{{ .image }}");'></a>

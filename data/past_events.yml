@@ -1,10 +1,9 @@
-past_speakers:
+past_events:
   enable : true
-  section_title : Our Past Speakers
-  title : The Opportunists
-  past_speakers_section :
+  section_title : Our Past Events
+  past_events_section :
      enable : true
-  past_speakers_loop :
+  past_events_loop :
     - name : Aditi Goyal
       bio : Ex-student of PPSIJC
       topic : HOW WE WRITE VS WHAT WE WRITE

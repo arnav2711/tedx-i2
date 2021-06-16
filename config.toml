@@ -85,8 +85,8 @@ URL = "nominate"
 weight = 5
 
 [[menu.main]]
-name = "Past Speakers"
-URL = "past_speakers"
+name = "Past Events"
+URL = "past_events"
 weight = 6
 
 
