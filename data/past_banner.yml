@@ -1,6 +1,6 @@
 banner:
   enable : true
-  bg_image_webp : "images/past-banner.webp"
+  bg_image_webp : "images/past-banner.png"
   title: "TEDxYouth@PPSIJC"
   date: "TEDxYouth@PPSIJC - 2019"
   theme_name: "THE KNOWLEDGE ILLUSION"
