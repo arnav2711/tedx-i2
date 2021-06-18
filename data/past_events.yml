@@ -1,6 +1,6 @@
 past_events:
   enable : true
-  section_title : Our Past Events
+  section_title : The Preachers
   past_events_section :
      enable : true
   past_events_loop :

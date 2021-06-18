@@ -46,3 +46,11 @@ team:
     - name : Aarav Jain
       designation : Website manager
       image : aarav-jain.jpg
+
+    - name : Siddhant Doshi
+      designation : Video Designer
+      image : siddhant-doshi.jpg
+
+    - name : Yash Sahni
+      designation : Video Designer
+      image : yash-sahni.jpg
