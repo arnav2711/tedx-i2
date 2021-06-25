@@ -3,7 +3,10 @@ speakers:
   enable : true
   section_title : Speakers
   title : The Opportunists
-  subtitle : Coming soon.
-  speakers_section :
-     enable : true
-  
+  subtitle : 
+  speakers_loop :
+    - name : Niranjan Hiranandani
+      bio : Founder/Director Hiranandani Group
+      topic : 
+      discipline : 
+      image : niranjan-hiranandani.jpg
