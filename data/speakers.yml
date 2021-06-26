@@ -5,8 +5,14 @@ speakers:
   title : The Opportunists
   subtitle : 
   speakers_loop :
-    - name : Niranjan Hiranandani
-      bio : Founder/Director Hiranandani Group
+    - name : Dr Niranjan Hiranandani
+      bio : 
       topic : 
       discipline : 
       image : niranjan-hiranandani.jpg
+
+    - name : Dr Graham Ward
+      bio : 
+      topic : 
+      discipline : 
+      image : graham-ward.jpg
