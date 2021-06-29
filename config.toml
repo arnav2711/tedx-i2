@@ -75,7 +75,7 @@ weight = 3
 
 [[menu.main]]
 name = "Register"
-URL = "#register-section"
+URL = "#register"
 weight = 4
 
 
