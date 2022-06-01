@@ -1,0 +1,40 @@
+{{ $data := index .Site.Data }}
+
+{{ if $data.crisis_to_opportunity.banner.enable }}
+{{ with $data.crisis_to_opportunity.banner.speakers }}
+<section class="ftco-section" id="speakers-section">
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+                <span class="subheading">{{ .section_title | markdownify }}</span>
+                <h2 class="mb-4">{{ .title | markdownify }}</h2>
+                <p style="font-size: 40px;">{{ .subtitle | markdownify }}</p>
+            </div>
+        </div>
+        <div class="row d-flex">
+            {{ if .enable }}
+            {{ range .speakers_loop }}
+            <div class="col-md-3 d-flex ftco-animate">
+                <div class="blog-entry justify-content-end">
+                    <a class="block-20" style='background-image: url("{{ $.Site.BaseURL }}images/speakers/{{ .image }}");'></a>
+                    <div class="text float-right d-block shadow-lg">
+                        <h3 class="heading">{{ .name }}</h3>
+                        <p>{{ .bio }}</p>
+                        <div class="d-flex align-items-center mt-4 meta">
+                            <p class="ml-auto mb-0">{{ .topic }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+            {{ else }}
+            <div class="col-md-12 heading-section text-center ftco-animate">
+                <h2 class="mb-4 text-black">Announcements soon.</h2>
+            </div>            
+            {{ end }}     
+        </div>
+    </div>
+</section>
+
+{{end}}
+{{end}}

@@ -1,0 +1,54 @@
+banner:
+  enable : true
+  bg_image_webp : "images/banner.webp"
+  title: "TEDxYouth@PPSIJC"
+  date: "TEDxYouth@PPSIJC - 2021"
+  theme_name: "Crisis to Oppurtnity"
+  content: "'In the midst of every crisis, lies great opportunity.' - Albert Einstein
+  <br><br>From the Cold War that gave rise to the opportunity for humans to advance their knowledge of space to Steve Jobs utilising the time after he was ousted from his very own company to give birth to Pixar, thousands, if not millions, of people and organisations have time after time evidenced this fact. Needless to say, we are living amidst a crisis ourselves; one that has brought the world to its knees. And it is in such times that the realisation that opportunity goes hand-in-hand with crisis is of utmost relevance.<br><br>
+It is quite conveniently said, but how can opportunities be there when very evidently everything around you seems to go haywire? And, if there are indeed opportunities, where exactly are they? Most importantly, how do you embrace adversity and fish out these so-called opportunities from the deep, dark ocean of crisis? These are the very questions we hope to answer with our transformative and invigorating talks. See you there!"
+  speakers :
+    section_title : The Opportunists
+    enable : true
+    speakers_loop :
+    - name : Dr Niranjan Hiranandani
+      bio : Co-Founder and Managing Director of the Hiranandani Group
+      topic : 
+      discipline : 
+      image : niranjan-hiranandani.jpg
+
+    - name : Dr Graham Ward
+      bio : Professor of organisational behaviour (Insead Business School, France), C Suite Advisor, Consultant and Coach
+      topic : 
+      discipline : 
+      image : graham-ward.jpg
+
+    - name : Mr Tuhin Menon
+      bio : Co-Founder and CEO of Asiaville Interactive
+      topic : 
+      discipline : 
+      image : tuhin-menon.jpg
+
+    - name : Dr Sam Pitroda
+      bio : Father of India's Computer and Telecom revolution
+      topic : 
+      discipline : 
+      image : sam-pitroda.jpeg
+
+    - name : Dr Manoj Dora
+      bio : Direcor, Collaborative Project and Outreach | Head, Operation and Information Management Group | Founder Circular Food Forum
+      topic : 
+      discipline : 
+      image : manoj-dora.jpg
+    
+    - name : Ms Chinmayee Kusnur
+      bio : Student at Simon Fraser University (Canada), Founder of the Khadi Sustainability initiative, National Runner-Up - UN Women 2020 Asia-Pacific Principles award for Khadi Sustainability
+      topic : 
+      discipline : 
+      image : chinmayee-kusnur.jpeg
+
+    - name : Dr Mickey Mehta
+      bio : Global Leading holistic health guru/Coporate life coach
+      topic : 
+      discipline : 
+      image : mickey-mehta.jpg

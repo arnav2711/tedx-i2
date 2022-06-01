@@ -7,8 +7,7 @@
     <div class="container">
         <div class="row d-flex">
             <div class="col-md-6 col-lg-5 d-flex">
-                <div class="img d-flex align-self-stretch align-items-center" style="background-image:url({{ .bg_image_webp | absURL }});">
-                </div>
+                <video width="500" height="800" controls autoplay loop><source src={{ .bg_image_webp }} type="video/mp4"></video>
             </div>
             <div class="col-md-6 col-lg-7 pl-lg-5 py-5">
                 <div class="py-md-5">
