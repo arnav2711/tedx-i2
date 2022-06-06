@@ -97,7 +97,7 @@ image = "images/banner.png"
 description = "TEDxYouth@PPSIJC is a conference being curated by the students of Prabhavati Padamshi Soni International Junior College, a junior college in Juhu, with a pedagogy based on Cambridge Assessment International Education's Advanced Level (A-Levels) program under the guidance of their teachers. The conference will be hosting an expected audience of about 100 in the institution's auditorium. Our goal is to bring together bright minds to give talks that are idea-focused, and on a wide range of subjects, to foster learning, inspiration and wonder, and provoke conversations that matter. The theme for this conference is: 'The Knowledge Illusion'."
 # Google Analytics
 google_analytics_id = "UA-143268759-3" # Your ID 
-title_social = "TEDxYouth@PPSIJC | From Crisis To Opportunity"
+title_social = "TEDxYouth@PPSIJC | Concept To Conclusion"
 
 
 # google map
