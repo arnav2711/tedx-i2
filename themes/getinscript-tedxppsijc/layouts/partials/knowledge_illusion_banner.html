@@ -1,0 +1,29 @@
+{{ $data := index .Site.Data }}
+
+{{ if $data.knowledge_illusion.banner.enable }}
+{{ with $data.knowledge_illusion.banner }}
+
+<section class="ftco-counter img ftco-section ftco-no-pt ftco-no-pb" id="home-section" style="background-color: black;">
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-md-6 col-lg-5 d-flex">
+                <div class="img d-flex align-self-stretch align-items-center" style="background-image:url({{ .bg_image_webp | absURL }});">
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-7 pl-lg-5 py-5">
+                <div class="py-md-5">
+                    <div class="row justify-content-start pb-3">
+                        <div class="col-md-12 heading-section ftco-animate">
+                            <h2 class="subheading" style="font-size: 15px; margin-bottom: 30px; color: white;">{{ .date | markdownify }}</h2>
+                            <h2 class="subheading" style="font-size: 25px; margin-bottom: 30px;">{{ .theme_name | markdownify }}</h2>
+                            <p style="color: white;">{{ .content | markdownify }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{end}}
+{{end}}
