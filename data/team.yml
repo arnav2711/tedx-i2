@@ -19,46 +19,126 @@ team:
       designation: Teacher in charge
       image: ameena-fernandes.jpg
 
-    - name : Rishi Ravikumar
-      designation : Executive producer
-      image : rishi-ravikumar.png
-
-    - name : Krish Panchigar
-      designation : Executive producer, <br>Website manager
-      image : krish-panchigar.jpg
-
-    - name : Siya Bhandari
-      designation : Designer, <br>Marketing
-      image : siya-bhandari.jpg
-    
-    - name : Snehsrishti Assie
-      designation : Designer, <br>Marketing
-      image : snehsrishti-assie.png
-    
-    - name : Jayaditya Singhvi
-      designation : Designer, <br>Marketing
-      image : jayaditya-singhvi.jpg
-
-    - name : Varda Rohokale
-      designation : Curator
-      image : varda-rohokale.jpg
-
-    - name : Shreya Gupta
-      designation : Curator
-      image : shreya-gupta.jpg
-    
-    - name : Krisha Seth
-      designation : Curator
-      image : krisha-seth.jpg
-
     - name : Aarav Jain
-      designation : Website manager
-      image : aarav-jain.jpg
+      designation : Executive producer
+      image : aarav jain.jpg
 
-    - name : Siddhant Doshi
-      designation : Video Designer
-      image : siddhant-doshi.jpg
+    - name : Daksh Sanghvi
+      designation : Event Manager
+      image : volunteer-standard.png
 
-    - name : Yash Sahni
-      designation : Video Designer
-      image : yash-sahni.jpg
+    - name : Helly Gala
+      designation : Art & Decor (Head)
+      image : helly gala.jpg
+    
+    - name : Hitanshi Makwana
+      designation : Art & Decor
+      image : volunteer-standard.png
+    
+    - name : Yuvraj Veera
+      designation : Art & Decor
+      image : Yuvraj Veera.jpg
+
+    - name : Delina Tejwani
+      designation : Art & Decor
+      image : volunteer-standard.png
+
+    - name : Janhavi
+      designation : Art & Decor
+      image : volunteer-standard.png
+    
+    - name : Kritika Mandholia
+      designation : Design (Head)
+      image : kritika mandholia.jpeg
+
+    - name : Ayaan Contractor
+      designation : Design
+      image : volunteer-standard.png
+
+    - name : Athena Sheth
+      designation : Design
+      image : athena sheth.jpg
+
+    - name : Serena Christopher D'souza
+      designation : Curator (Head)
+      image : Serena D_souza.jpg
+
+    - name : Arush Desai
+      designation : Curator
+      image : arush desai.jpg
+
+    - name : Valoumi Sedani
+      designation : Curator
+      image : valoumi sedani.JPG
+
+    - name : Maahi Patel
+      designation : Finance (Head)
+      image : maahi patel.jpg
+
+    - name : Krish Panani
+      designation : Finance
+      image : Krish Panani.jpg
+
+    - name : Suhavi Dhillon
+      designation : Logistics (Head)
+      image : suhavi dhillon.jpg
+
+    - name : Heer Bhatia
+      designation : Logistics
+      image : volunteer-standard.png
+
+    - name : Amishi Bansal
+      designation : Logistics
+      image : amishi bansal.jpg
+    
+    - name : Kavish Kanani
+      designation : Logistics
+      image : Kavish Kanani.jpg
+
+    - name : Riona Merchant
+      designation : Hospitality (Head)
+      image : volunteer-standard.png
+
+    - name : Shiv Tyagi
+      designation : Hospitality
+      image : volunteer-standard.png
+
+    - name : Kavya Shah 
+      designation : Hospitality
+      image : volunteer-standard.png
+
+    - name : Jiya Banerjee  
+      designation : Hospitality
+      image : volunteer-standard.png
+
+    - name : Hridikk Hingorani 
+      designation : Tech (Head)
+      image : Hridikk Hingorani.jpeg
+
+    - name : Hem Mistry 
+      designation : Tech
+      image : volunteer-standard.png
+
+    - name : Vir Mehra 
+      designation : Tech
+      image : volunteer-standard.png
+
+    - name : Aditi Agarwal 
+      designation : Social Media Marketing (Head)
+      image : aditi agarwal.jpg
+
+    - name : Ranveer Chhibber  
+      designation : Social Media Marketing
+      image : Ranveer Chhibber.jpg
+    
+    - name : Anisha Ali  
+      designation : Social Media Marketing
+      image : anisha ali.jpeg
+
+    - name : Megh Dedhia  
+      designation : Social Media Marketing
+      image : Megh Dedhia.png
+
+    - name : Sehaj Arora  
+      designation : Social Media Marketing
+      image : sehaj arora.jpg
