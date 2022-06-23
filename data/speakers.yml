@@ -20,3 +20,20 @@ speakers:
       topic : 
       discipline : 
       image : mangesh desai.jpeg
+    - name : Mr. Sanjay Jog
+      bio : Consulting Editor with Free Press Journal | Journalist for over 3 decades 
+      topic : 
+      discipline : 
+      image : sanjay jog.jpeg
+    - name : Dr. Kinshuk Dasgupta
+      bio : Scientific Officer at the Bhabha Atomic Research Centre | Recipient of the "VASVIK Industrial research award” and the “Shanti Swarup Bhatnagar Prize”.
+      topic : 
+      discipline : 
+      image : kinshuk dasgupta.jpg
+    - name : Mr. Devesh Chawla
+      bio : Founder and CEO of Chatur Ideas | Recipient of the "Mahatma Gandhi Samman Award".
+      topic : 
+      discipline : 
+      image : devesh chawla.jpeg
+    
+    
