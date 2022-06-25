@@ -21,7 +21,7 @@ speakers:
       discipline : 
       image : mangesh desai.jpeg
     - name : Mr. Sanjay Jog
-      bio : Consulting Editor with Free Press Journal | Journalist for over 3 decades 
+      bio : Consulting Editor with Free Press Journal | Journalist for over 3 decades. 
       topic : 
       discipline : 
       image : sanjay jog.jpeg
@@ -35,5 +35,16 @@ speakers:
       topic : 
       discipline : 
       image : devesh chawla.jpeg
+    - name : Mr. Darpan Bendre 
+      bio : Co-Founder and CEO of Agrify Fresh.
+      topic : 
+      discipline : 
+      image : darpan bendre.jpg
+    - name : Mr. Krishnarjun Bhattacharya
+      bio : Author, film-maker, and game designer | Recipient of the "Inlaks FTII Award" and the "Lalit Kala Scholarship for Best Photography".
+      topic : 
+      discipline : 
+      image : krishnarjun bhattacharya.jpg
+    
     
     
